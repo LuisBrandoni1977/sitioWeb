@@ -1,0 +1,21 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	
+	 background-image: url("https://cdn.pixabay.com/photo/2018/11/15/02/41/essential-oil-3816410_960_720.jpg"); 
+	 background-repeat:  no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
+}
+.cabecera {
+	padding: 7px;
+	height: 50px;
+	text-align: left;
+	<font face="cornelia">Texto</font>
+	
+	
+}

@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	
+	 background-image: url("https://cdn.pixabay.com/photo/2018/11/15/02/41/essential-oil-3816410_960_720.jpg"); 
+	 background-repeat:  no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
+}
+.cabecera {
+	padding: 15px;
+	height: 50px;
+	text-align: left;
+	<font face="cornelia">Texto</font>
+	
+	
+}
+.navegacion 
+
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+}
+#menu li>a{
+  
+  color: black;
+ padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+background-color: rgba(0, 0, 0, 0.3) ;
+	height: 10px;
+	text-align: center;
+	<font face="cornelia">Texto</font>
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+  text-align:center;
+}
+#menu>li{
+  float: right;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+  text-align:center;
+}
+#menu>li:hover>ul {
+  display:block;
+  text-align:center;
+}
+
+.menu{
+height: 10px;
+	text-align: right;
+	<font face="cornelia">Texto</font>
+	padding: 15px;
+	height: 50px;
+	
+
+}
+.principal {
+	height: 5000px;
+	  
+	margin: 1000px 0px;
+	
+	
+}
+.secundario {
+	height: 300px;
+	background-color: blueviolet;
+
+	margin: 10px 0px;
+}
+.c1 {
+	height: 100px;
+	width: 250px;
+	background-color: black;
+	float: left;
+	margin: 10px;
+}
+.c1 .logo {
+	margin: 0px;
+	float: initial;
+	
+}
+.c2 {
+	height: 100px;
+	width: 250px;
+	background-color: grey;
+	float: right;
+	margin: 10px;
+}
+.flotaIzq {
+	float: left;
+}
+.flotaDer {
+	float: right;
+}
+.rojo {
+	background-color: red;
+}
+.negro {
+	background-color: black;
+}
+.ancho25p {
+	width: 25%;
+}
+.alto200 {
+	height: 200px;
+}
+.alto300 {
+	height: 300px;
+}
