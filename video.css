@@ -12,10 +12,89 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
 }
 .cabecera {
-	padding: 7px;
+	padding: 15px;
 	height: 50px;
 	text-align: left;
 	<font face="cornelia">Texto</font>
-	
-	
+		
+}
+.video1{
+width: 500px;
+position: relative;
+padding: 100px;
+margin: auto; 
+margin-top: 100px;
+margin-left: 300px;
+}
+
+ul{
+  list-style: none;
+  padding: 1px;
+}
+
+#menu li>a{
+  
+  color: black;
+ padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 70px;
+background-color: rgba(0, 0, 0, 0.3) ;
+	height: 15px;
+	text-align: center;
+	<font face="cornelia">Texto</font>
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+  text-align:center;
+}
+#menu>li{
+  float: right;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+  text-align:center;
+}
+#menu>li:hover>ul {
+  display:block;
+  text-align:center;
+}
+
+.menu{
+height: 1px;
+	text-align: right;
+	<font face="cornelia">Texto</font>
+	padding: 15px;
+	height: 50px;
+
+}
+/*.video2{
+width: 500px;
+position: relative;
+padding: 300px;
+margin: auto; 
+margin-top: 300px;
+margin-left: 400px;
+}
+
+.video3{
+width: 500px;
+position: relative;
+padding: 300px;
+margin: auto; 
+margin-top: 500px;
+margin-left: 400px;
+
+}*/
+
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
 }
