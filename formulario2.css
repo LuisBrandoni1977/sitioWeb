@@ -2,7 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 }
-body {
+.body {
 	
 	 background-image: url("https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/page.jpeg"); 
 	 background-repeat:  no-repeat;
@@ -11,27 +11,43 @@ body {
 	 color: black;
 	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
 }
+.text{
+  font-family: cornelia;
+}        
+h1{
+  font-family: cornelia;
+  font-size: 70px;
+}
+h2{
+  font-family:Cooper Black;
+}
 .cabecera {
 	padding: 15px;
 	height: 50px;
 	text-align: center;
 	<font face="cornelia">Texto</font>
-		
+	
+	
 }
-.video1{
-width: 500px;
-position: relative;
-padding: 100px;
-margin: auto; 
-margin-top: 100px;
-margin-left: 300px;
+.form{
+	border:2px solid blue; 
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
 }
 
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
 ul{
+	margin-right: 100px;
   list-style: none;
-  padding: 1px;
+  padding: 10px;
 }
-
 #menu li>a{
   
   color: black;
@@ -50,7 +66,7 @@ background-color: rgba(0, 0, 0, 0.3) ;
   text-align:center;
 }
 #menu>li{
-  float: right;
+  float: right;  
   text-align:center;
 }
 #menu>li>ul{
@@ -63,14 +79,31 @@ background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 .menu{
+
 height: 1px;
 	text-align: right;
 	<font face="cornelia">Texto</font>
 	padding: 15px;
 	height: 50px;
+	
 
 }
-
+.principal {
+	height: 5000px;
+	 background-color: #f4f4f4; 
+	 margin: 5px; 
+	 width: 50px; 
+	 height: 500px;  
+}
+.label{
+	color: black;
+	background-color: #d1f4ee;
+	size: 50px;
+}
+.campotexto{
+	height: 75px;
+	width: 350px;
+}
 
 .logo
 {

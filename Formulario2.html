@@ -2,31 +2,43 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <link rel="stylesheet" href="formulario2.css"> 
+<title class="texto">Equilibrium</title>
 </head>
-<body style="background-repeat:  no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;">
-<img src="https://cdn.pixabay.com/photo/2018/11/15/02/41/essential-oil-3816410_960_720.jpg">
-    <section class="form" style="border:2px solid blue; width: 400px;padding: 30px;margin: auto;margin-top: 100px;border-radius: 4px;">
-    <title>Simulacro del Practico</title>
-    <p><h1>Formulario Requerido</h1></p>
-    <form onsubmit="return enviar(event)" id="frm" name="frm">
-        <label>Nombre</label><br>
-        <input id="nombre" name="nombre"><br>
-        <label>Saludo</label><br>
-        <div>
-        <input type="checkbox" id="saludo" name="seleccion">
-        <label for="seleccion"><b>Saludo</b></label><br>
-        <input type="checkbox" id="sugerencia" name="seleccion">
-        <label for="sugerencia"><b>Sugerencia</b></label><br>
-        </div>
-        <label for="Sugerenciatext"><b>Sugerencia</b></label><br>
-        <textarea id="compotexto" name="campotexto"></textarea><br>
+<head>
+<body class="body">
+     <div class="logo" data-left="9.33%"></div>   
+    <div class="cabecera">
+    <br>
+    <br>    
+    <h1>Equilibrium</h1>    
+    <h2>Cuerpo y Alma</h2>
+    </div>
+    <div>
+     <ul id="menu">           
+            <li><a><b>Galeria</b></a>
+
+                <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="carrusel.html">Fotos</a></li>
+                </ul>
+            <li><a href="index.html"><b>Inicio</b></a></li>
+            </li>
+          </ul>
+      </div>
+       <form onsubmit="return enviar(event)" id="frm" name="frm">
+    <section class="form">
+        <label class="label"><b>Nombre</b></label><br>
+        <input size="25" id="nombre" name="nombre"><br><br>
+        <label class="label"><b>Apellido</b></label><br>
+        <input size="25" id="apellido" name="apellido"><br><br>
+        <label class="label"><b>Telefono</b></label><br>
+        <input size="25" id="telefono" name="telefono"><br><br>
+        <label class="label"><b>Correo</b></label><br>
+        <input size="25" id="correo" name="correo"><br><br>
+        <label  class="label" for="Sugerenciatext"><b>Sugerencia</b></label><br>
+        <textarea class="campotexto" id="compotexto" name="campotexto"></textarea><br>
         <button id="boton"><b>Enviar</b></button>
     </form>
     <ul id="list_enviados"></ul>
@@ -104,4 +116,11 @@ return errores.length == 0;
 </script>
 
 </body>
+</html>
+   
+  
+        
+
+</body>
+</head>
 </html>

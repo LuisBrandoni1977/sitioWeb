@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+ box-sizing: border-box
+
+font-family: Verdana, sans-serif; margin:0}
+
+body {
+	
+	 background-image: url("https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/page.jpeg"); 
+	 background-repeat:  no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
+}
+.text{
+ font-family: cornelia;
+}
+h1{
+  font-family: cornelia;
+  font-size: 70px;
+}
+h2{
+  font-family:Cooper Black;
+}
+.cabecera {
+	padding: 15px;
+	height: 10px;
+	text-align: center;
+	<font face="cornelia">Texto</font>	
+}
+
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  padding: 10px;
+}
+#menu li>a{
+  
+  color: black;
+ padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 70px;
+background-color: rgba(0, 0, 0, 0.3) ;
+	height: 15px;
+	text-align: center;
+	<font face="cornelia">Texto</font>
+}
+#menu li>a:hover{
+  color: #3D5110;
+  background-color: #eaeaea;
+  text-align:center;
+}
+#menu>li{
+  float: right;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+  text-align:center;
+}
+#menu>li:hover>ul {
+  display:block;
+  text-align:center;
+}
+
+.menu{
+height: 1px;
+	text-align: right;
+	<font face="cornelia">Texto</font>
+	padding: 15px;
+	height: 50px;
+}
+
+.logo
+{
+    display: block;
+    left: 9.33%;
+    margin-left: -36px;
+    position: absolute;
+    top: -6px;
+    width: 387px;
+    height: 326px;
+    background-image: url('https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/object1274802213.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.separador{
+	padding: 100px;
+}
+
+.mySlides {display: none}
+img {vertical-align: super;
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 420px;
+  height: 550px;
+  text-align: center;
+
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 0%;
+  width: 800px;
+  padding: 16px;
+  margin-top: -22px;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 12px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px){
+  .prev, .next{font-size: 11px}
+}
