@@ -2,9 +2,12 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+
+
 body {
 	
-	 background-image: url("https://cdn.pixabay.com/photo/2018/11/15/02/41/essential-oil-3816410_960_720.jpg"); 
+	 background-image: url("https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/page.jpeg"); 
 	 background-repeat:  no-repeat;
 	 background-attachment: fixed;
 	 background-size: cover;
@@ -13,13 +16,13 @@ body {
 }
 .cabecera {
 	padding: 15px;
-	height: 50px;
-	text-align: left;
+	height: 10px;
+	text-align: center;
 	<font face="cornelia">Texto</font>
 	
 	
 }
-.navegacion 
+
 
 header{
   font-family: Helvetica;
@@ -43,7 +46,7 @@ background-color: rgba(0, 0, 0, 0.3) ;
 	<font face="cornelia">Texto</font>
 }
 #menu li>a:hover{
-  color: #000;
+  color: #3D5110;
   background-color: #eaeaea;
   text-align:center;
 }
@@ -79,11 +82,7 @@ height: 1px;
 	
 	
 }
-.secundario {
-	
 
-
-}
 .c1 {
 	height: 100px;
 	width: 250px;
@@ -91,12 +90,7 @@ height: 1px;
 	float: left;
 	margin: 10px;
 }
-.c1 .logo {
-	margin: 0px;
-	float: initial;
 	
-}
-
 .contenedor{
 	padding: 10px;
 	overflow: hidden;
@@ -111,8 +105,6 @@ height: 1px;
    border-radius: 60px;
 }
  
-
- 
 .divtexto {
    width: 400px; height: 150px;
    margin-left: 450px;   
@@ -122,3 +114,17 @@ height: 1px;
   
 }
 
+.logo
+{
+    display: block;
+    left: 9.33%;
+    margin-left: -36px;
+    position: absolute;
+    top: -6px;
+    width: 387px;
+    height: 326px;
+    background-image: url('https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/object1274802213.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
