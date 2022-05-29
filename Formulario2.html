@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <link rel="stylesheet" href="formulario2.css"> 
+<title class="texto">Equilibrium</title>
+</head>
+<head>
+<body class="body">
+     <div class="logo" data-left="9.33%"></div>   
+    <div class="cabecera">
+    <br>
+    <br>    
+    <h1>Equilibrium</h1>    
+    <h2>Cuerpo y Alma</h2>
+    </div>
+    <div>
+     <ul id="menu">           
+            <li><a><b>Galeria</b></a>
+
+                <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="carrusel.html">Fotos</a></li>
+                </ul>
+            <li><a href="index.html"><b>Inicio</b></a></li>
+            </li>
+          </ul>
+      </div>
+       <form onsubmit="return enviar(event)" id="frm" name="frm">
+    <section class="form">
+        <label class="label"><b>Nombre</b></label><br>
+        <input size="25" id="nombre" name="nombre"><br><br>
+        <label class="label"><b>Apellido</b></label><br>
+        <input size="25" id="apellido" name="apellido"><br><br>
+        <label class="label"><b>Telefono</b></label><br>
+        <input size="25" id="telefono" name="telefono"><br><br>
+        <label class="label"><b>Correo</b></label><br>
+        <input size="25" id="correo" name="correo"><br><br>
+        <label  class="label" for="Sugerenciatext"><b>Sugerencia</b></label><br>
+        <textarea class="campotexto" id="compotexto" name="campotexto"></textarea><br>
+        <button id="boton"><b>Enviar</b></button>
+    </form>
+    <ul id="list_enviados"></ul>
+    <ul id="lista_errores"></ul>
+
+    </section>
+
+<script>
+
+function ver(e){
+    console.log(e);
+}
+
+function enviar(e){
+    if(validar());
+    return false;
+}
+
+function validar(){
+let nombre = document.getElementById("nombre");
+let saludo = document.frm.saludo;
+let sugerencia= document.frm.sugerencia;
+let campotexto = document.frm.campotexto;
+let errores = [];
+
+
+let inputs = document.querySelectorAll("input,textarea,div");
+ 
+    for (var i =0; i < inputs.length; i++) {
+       inputs[i].style.border = "revert";
+    }
+
+if(nombre.value.trim() == ''){
+    errores.push(" El campo Nombre debe estar Completo ");
+    nombre.style.border = "2px solid red";
+}else if(nombre.value.length>20){
+    errores.push(" El nombre no debe superar los 20 caracteres ");
+     nombre.style.border = "2px solid red";
+}
+
+if(!isNaN(nombre.value)){
+    errores.push(" El Nombre no puede ser un Numero ");
+     nombre.style.border = "2px solid red";
+}
+
+if(!sugerencia.checked && !saludo.checked){
+    errores.push(" Al menos una opccion debe estar seleccionada ");
+     sugerencia.style.border = "2px solid red";
+      saludo.parentNode.style.border = "2px solid red";
+} 
+
+if(sugerencia.checked && campotexto.value.trim() == '') {
+   errores.push(" Debe dejar un comentario en Sugerencias ");
+   campotexto.style.border = "2px solid red";
+}
+
+if(campotexto.value.length > 200){
+    errores.push(" Se puede escribir hasta 200 caracteres ");
+    campotexto.style.border = "2px solid red";
+}
+
+let lista_errores_m = document.querySelector("#lista_errores");
+lista_errores_m.innerHTML = "";
+errores.forEach(e => {
+    let li = document.createElement("li");
+    li.innerHTML = e;
+    lista_errores_m.appendChild(li);
+   console.log(e);
+});
+return errores.length == 0;
+
+}
+
+
+</script>
+
+</body>
+</html>
+   
+  
+        
+
+</body>
+</head>
+</html>
