@@ -14,9 +14,15 @@ body {
 	 color: black;
 	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
 }
+
+.contenedor{
+  width: 90%;
+	max-width: 75em;
+
+}
 .cabecera {
-	padding: 15px;
-	height: 10px;
+	padding: 0.93em;
+	height: 0.62em;
 	text-align: center;
 	<font face="cornelia">Texto</font>
 	
@@ -26,22 +32,22 @@ body {
 
 header{
   font-family: Helvetica;
-  width: 480px;
+  width: 30em;
   margin: 0 auto;
 }
 ul{
   list-style: none;
-  padding: 10px;
+  padding: 0.62em;
 }
 #menu li>a{
   
   color: black;
- padding: 10px;
+ padding: 0.62em;
   display: block;
   text-decoration: none;
-  min-width: 70px;
+  min-width: 4.37em;
 background-color: rgba(0, 0, 0, 0.3) ;
-	height: 15px;
+	height: 0.93em;
 	text-align: center;
 	<font face="cornelia">Texto</font>
 }
@@ -64,56 +70,52 @@ background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 .menu{
-height: 1px;
+height: 0.06em;
 	text-align: right;
 	<font face="cornelia">Texto</font>
-	padding: 15px;
-	height: 50px;
+	padding: 0.93em;
+	height: 3.12em;
 	
 
 }
 .principal {
-	height: 5000px;
+	height: 312.5em;
 	 background-color: #f4f4f4; 
-	 margin: 5px; 
-	 width: 50px; 
-	 height: 500px;  
+	 margin: 0.31em; 
+	 width: 3.12em; 
+	 height: 31.25em;  
 	
 	
 	
 }
-.secundario {
-	
 
-
-}
 .c1 {
-	height: 100px;
-	width: 250px;
+	height: 6.25em;
+	width: 15.62em;
 	background-color: black;
 	float: left;
-	margin: 10px;
+	margin: 0.62em;
 }
 	
 .contenedor{
-	padding: 10px;
+	padding: 0.62em;
 	overflow: hidden;
 }
 .section {
    
    float: left;
-   margin: 100px;
-   padding: 10px;
-   width: 400px; height: 150px;
+   margin: 6.25em;
+   padding: 0.62em;
+   width: 25em; height: 9.37em;
    background-color: white; 
-   border-radius: 60px;
+   border-radius: 3.75em;
 }
  
 .divtexto {
-   width: 400px; height: 150px;
-   margin-left: 450px;   
+   width: 25em; height: 9.37em;
+   margin-left: 28.12em;   
    position: absolute;   
-   padding:10px; 
+   padding:0.62em; 
    float: left; 
   
 }
@@ -122,11 +124,11 @@ height: 1px;
 {
     display: block;
     left: 9.33%;
-    margin-left: -36px;
+    margin-left: -2.25em;
     position: absolute;
-    top: -6px;
-    width: 387px;
-    height: 326px;
+    top: -0.37em;
+    width: 24.18em;
+    height: 20.37em;
     background-image: url('https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/object1274802213.png');
     background-position: 0 0;
     background-repeat: no-repeat;
