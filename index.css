@@ -1,6 +1,8 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
+	
 }
 
 
@@ -15,41 +17,48 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
 }
 
-.contenedor{
-  width: 90%;
-	max-width: 75em;
-
+h1{
+  font-family: cornelia;
+  font-size: 70px;
+}
+h2{
+  font-family:Cooper Black;
 }
 .cabecera {
-	padding: 0.93em;
-	height: 0.62em;
+	padding: 15px;
+	height: 10px;
 	text-align: center;
-	<font face="cornelia">Texto</font>
-	
-	
+	<font face="cornelia">Texto</font>	
 }
 
+.contenedor{
+  width: 90%;
+	max-width: 1200px;
+	float: right;
+
+}
 
 header{
-  font-family: Helvetica;
-  width: 30em;
+  font-family: cornelia;
+  width: 480px;
   margin: 0 auto;
 }
 ul{
   list-style: none;
-  padding: 0.62em;
+  padding: 10px;
 }
 #menu li>a{
   
   color: black;
- padding: 0.62em;
+ padding: 10px;
   display: block;
   text-decoration: none;
-  min-width: 4.37em;
+  min-width: 70px;
 background-color: rgba(0, 0, 0, 0.3) ;
-	height: 0.93em;
+	height: 15px;
 	text-align: center;
-	<font face="cornelia">Texto</font>
+	border-radius: 30px;
+	
 }
 #menu li>a:hover{
   color: #3D5110;
@@ -70,67 +79,95 @@ background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 .menu{
-height: 0.06em;
+height: 1px;
 	text-align: right;
 	<font face="cornelia">Texto</font>
-	padding: 0.93em;
-	height: 3.12em;
+	padding: 15px;
+	height: 50px;
 	
 
 }
-.principal {
-	height: 312.5em;
-	 background-color: #f4f4f4; 
-	 margin: 0.31em; 
-	 width: 3.12em; 
-	 height: 31.25em;  
-	
-	
-	
-}
 
-.c1 {
-	height: 6.25em;
-	width: 15.62em;
-	background-color: black;
+.cont{
+
+
 	float: left;
-	margin: 0.62em;
+	height: 300px;
+	padding: 1px;
+	flex-direction: row;
+	display: table;
+	margin: 10px;
+	margin-left: 100px;
+
+
 }
-	
-.contenedor{
-	padding: 0.62em;
-	overflow: hidden;
+
+.section{
+	border: 2px solid black;
 }
-.section {
+#section1 {
    
    float: left;
-   margin: 6.25em;
-   padding: 0.62em;
-   width: 25em; height: 9.37em;
+   margin: 10px;
+   width: 400px;
+   height: 150px;
    background-color: white; 
-   border-radius: 3.75em;
+   border-radius: 60px;
+
 }
- 
+#section2 {
+   
+   float: left;
+   margin: 10px;  
+   width: 400px;
+   height: 150px;
+   background-color: white; 
+   border-radius: 60px;
+
+}
+#section3 {
+   
+   float: left;
+   margin: 10px;
+   width: 400px;
+   height: 150px;
+   background-color: white; 
+   border-radius: 60px;
+
+}
+#section4 {
+   
+   float: left;
+  margin: 10px;
+   width: 400px;
+   height: 150px;
+   background-color: white; 
+   border-radius: 60px;
+
+}
+
 .divtexto {
-   width: 25em; height: 9.37em;
-   margin-left: 28.12em;   
-   position: absolute;   
-   padding:0.62em; 
-   float: left; 
-  
+   width: 400px;
+   height: 150px;
+   text-align: center;
 }
 
 .logo
 {
     display: block;
     left: 9.33%;
-    margin-left: -2.25em;
+    margin-left: -36px;
     position: absolute;
-    top: -0.37em;
-    width: 24.18em;
-    height: 20.37em;
+    top: -6px;
+    width: 387px;
+    height: 326px;
     background-image: url('https://www.espaciohonduras.net/images/diseno_programacion_web/Plantillas_web/spa/1/spa_1/images/object1274802213.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 1;
+}
+.separador{
+	width: 1000px;
+	height: 200px;
+	
 }

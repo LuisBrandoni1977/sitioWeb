@@ -42,7 +42,7 @@ ul{
 background-color: rgba(0, 0, 0, 0.3) ;
 	height: 15px;
 	text-align: center;
-	<font face="cornelia">Texto</font>
+	border-radius: 30px;
 }
 #menu li>a:hover{
   color: #3D5110;
