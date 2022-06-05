@@ -9,7 +9,9 @@ function enviar(e){
 
 function validar(){
 let nombre = document.getElementById("nombre");
-
+let apellido = document.getElementById("apellido");
+let telefono = document.getElementById("telefono");
+let correo = document.getElementById("correo");
 let campotexto = document.frm.campotexto;
 let errores = [];
 
