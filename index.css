@@ -1,8 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif, cornelia;
-	
+		
 }
 
 body {
@@ -166,6 +165,12 @@ height: 1px;
 }
 .separador{
 	width: 1000px;
-	height: 200px;
+	height: 400px;
+  
+
 	
+}
+.comentario{
+ margin-top: 200px;
+ float: left; 
 }

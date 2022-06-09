@@ -29,24 +29,24 @@
           </ul>
       </div>
       <div class="separador">
-     <form id="enviar">
+
+     <form id="enviar" onsubmit="return onSubmit()">
     <section class="form">
         <label class="label" style="text-align:center" ><b>  Nombre  </b></label><br>
-        <input type="texto" size=25 style="height: 23px;" id="input" name="nombre" placeholder="Introduce tu Nombre..." ><br><br>
+        <input type="texto" class="input" size=25 style="height: 23px;" id="nombre" name="nombre" placeholder="Introduce tu Nombre..." ><br><br>
         <label class="label"><b>  Apellido  </b></label><br>
-        <input type="texto" size=25 style="height: 23px;" id="input" name="apellido" placeholder="Introduce tu Apellido..."><br><br>
+        <input type="texto" class="input" size=25 style="height: 23px;" id="apellido" name="apellido" placeholder="Introduce tu Apellido..."><br><br>
         <label class="label"><b>  Telefono  </b></label><br>
-        <input type="Telefono" size=25 style="height: 23px;" id="input" name="telefono" placeholder="Introduce tu Telefono..."><br>
-        <label class="label"><b>  Correo  </b></label><br>
-        <input type="Correo" size=25 style="height: 23px;" id="input" name="correo" placeholder="Introduce tu Correo..."><br><br>
-        <label  class="label" for="Sugerenciatext"><b>  Sugerencia  </b></label><br>
-        <textarea class="campotexto" id="input" name="campotexto" placeholder="Introduce una Sugerencia..."></textarea><br>
+        <input type="Telefono" class="input" size=25 style="height: 23px;" id="telefono" name="telefono" placeholder="Introduce tu Telefono..."><br><br>
+        <label class="label"><b>  Email  </b></label><br>
+        <input type="Correo" class="input" size=25 style="height: 23px;" id="email" name="email" placeholder="Introduce tu Correo..."><br><br>
+        <label  class="label" for="campotexto"><b>  Sugerencia  </b></label><br>
+        <textarea class="campotexto" id="campotexto" name="campotexto" placeholder="Introduce una Sugerencia..."></textarea><br>
         <button id="boton"><b>  Enviar  </b></button>
     </form>
-    
     <ul id="lista_errores"></ul>
-
-    </section>
+    <div id="enviado"></div>
+   </section>
    <div class="separador" id="pie">
 
 <script defer type="text/javascript" src="Formulario2.js"></script>
