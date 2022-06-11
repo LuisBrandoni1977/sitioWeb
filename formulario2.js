@@ -4,10 +4,10 @@ function ver(){
     console.log();
 }
 
-var enviar = document.getElementById("enviar");
-enviar.onsubmit = () => onSubmit()
+/*var enviar = document.getElementById("enviar");
+enviar.onsubmit = () => onSubmit()*/
 
-function onSubmit() {
+function enviar() {
 
 if(validar()){
 let p = document.createElement("p");
