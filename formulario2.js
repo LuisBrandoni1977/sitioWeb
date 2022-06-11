@@ -4,10 +4,11 @@ function ver(){
     console.log();
 }
 
-var enviar = document.getElementById("enviar");
-enviar.onsubmit = () => onSubmit()
+//var enviar = document.getElementById("enviar");
+//enviar.onsubmit = () => onSubmit()
 
-function onsubmit(){
+function enviar() {
+
 if(validar()){
 let p = document.createElement("p");
     p.innerHTML=`Todos los Campos Correctos el Formulario Se Envio. `;
