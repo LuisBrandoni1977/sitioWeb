@@ -7,8 +7,7 @@ function ver(){
 var enviar = document.getElementById("enviar");
 enviar.onsubmit = () => onSubmit()
 
-function enviar() {
-
+function onsubmit(){
 if(validar()){
 let p = document.createElement("p");
     p.innerHTML=`Todos los Campos Correctos el Formulario Se Envio. `;
