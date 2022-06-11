@@ -1,19 +1,19 @@
 
 
-function ver(e){
+function ver(){
     console.log();
 }
 
-/*var enviar = document.getElementById("enviar");
-enviar.onsubmit = () => onSubmit()*/
+var enviar = document.getElementById("enviar");
+enviar.onsubmit = () => onSubmit()
 
-function enviar(e) {
+function enviar() {
 
 if(validar()){
 let p = document.createElement("p");
     p.innerHTML=`Todos los Campos Correctos el Formulario Se Envio. `;
     document.getElementById("enviado").appendChild(p)
-    enviar.reset();
+enviar.reset();
 }
     return false;
 }
