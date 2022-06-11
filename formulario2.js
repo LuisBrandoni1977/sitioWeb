@@ -13,7 +13,7 @@ if(validar()){
 let p = document.createElement("p");
     p.innerHTML=`Todos los Campos Correctos el Formulario Se Envio. `;
     document.getElementById("enviado").appendChild(p)
-enviar.reset();
+    enviar.reset();
 }
     return false;
 }
